@@ -9,20 +9,21 @@ h1, h2, h3, h4, h5, p {
 
 section {
 	background-color: #D5FAFC;
-	width: 1440px;
+	width: 1111px;
 	margin: 0 auto;
+	box-shadow: -165px 0 0 0 #2EC5CE;
 }
 
 .left {
 	background-color: #2EC5CE;
-	width: 705px;
+	width: 540px;
 	display: inline-block;
 	vertical-align: middle;
 }
 
 .title {
 	width: 445px;
-	margin: 246px 95px 246px 165px;
+	margin: 246px 95px 246px 0;
 }
 
 .right {
@@ -31,6 +32,8 @@ section {
 	margin-left: -3px;
 	display: inline-block;
 	vertical-align: middle;
+	box-shadow: 109px 0 0 56px #D5FAFC;
+
 }
 
 .quotes {
