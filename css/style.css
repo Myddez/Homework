@@ -49,8 +49,9 @@ header svg {
 }
 
 .menu-item:hover, .menu-item:active {cursor: pointer}
-.menu-item:hover a {
-	color: #0275B1;
+
+.menu-item:hover a, .menu-item_active a {
+	color: #0275B1!important;
 	text-decoration: 0;
 	border-bottom: 2px solid #0275B1;
 	padding-bottom: 15px;
@@ -63,7 +64,7 @@ header svg {
 	padding-bottom: 15px;
 }
 
-.menu-item:hover svg path {
+.menu-item:hover, .menu-item_active svg path {
 	stroke: #0275B1;
 }
 
@@ -209,13 +210,13 @@ header svg {
 	vertical-align: baseline;
 }
 
-.navigation__link:hover {
+.navigation__link:hover, .navigation__link_active {
 	border-left: 10px solid #0275B1;
 	color: #18181899;
 	padding-left: 20px;
 }
 
-.navigation__link:hover svg path {
+.navigation__link:hover svg path, .navigation__link_active svg path {
 	stroke: #18181899;
 }
 
