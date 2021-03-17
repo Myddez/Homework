@@ -107,10 +107,12 @@ section {
 	color: #EFEFEF;
 	background-color: #7A1FD0;
 	box-shadow: 0 0 10px #DDD;
+	cursor: pointer;
 }
 
 .headline__button:focus {
 	color: #DFDFDF;
 	background-color: #640FC0;
 	box-shadow: 0 0 10px 2px #DDD;
+	cursor: pointer;
 }
