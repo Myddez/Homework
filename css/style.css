@@ -64,7 +64,7 @@ header svg {
 	padding-bottom: 15px;
 }
 
-.menu-item:hover, .menu-item_active svg path {
+.menu-item:hover svg path, .menu-item_active svg path {
 	stroke: #0275B1;
 }
 
