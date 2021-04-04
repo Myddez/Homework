@@ -1,16 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Homework</title>
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="css/normalize.css">
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <head>
+        <title>Homework</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section>
+            <div class="content">
+                <div class="container">
+                    <div class="info">
+                        <img src="img\logo.png" alt="logo" class="info__logo">
+                        <div class="info__block">
+                            <img src="img\quotes.png" alt="" class="info__quotes">
+                            <p class="info__text">The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software.</p>
+                            <p class="info__name">Vincent Obi</p>
+                            <img src="img\angle.png" alt="image" class="info__image_3">
+                        </div>
+                        <img src="img\points.png" alt="image" class="info__image_1">
+                        <img src="img\circle.png" alt="image" class="info__image_2">
+                    </div>
+                    <div class="register">
+                        <div class="navigation">
+                            <a href="#" class="navigation__back">Back</a>
+                            <div class="navigation__info">
+                                <p class="navigation__step">step 01/03</p>
+                                <p class="navigation__description">Personal Info.</p>
+                            </div>
+                        </div>
+                        <div class="register__block">
+                            <h1 class="register__title">Register Individual Account!</h1>
+                            <p class="register__subtitle">For the purpose of industry regulation, your details are required.</p>
+                            <form action="#" class="register__form">
+                                <label for="fullname">Your fullname *</label>
+                                <input type="text" id="fullname" placeholder="Enter your fullname">
 
-</body>
+                                <label for="email">Email address *</label>
+                                <input type="email" id="email" placeholder="Enter email address">
+
+                                <label for="password">Create password *</label>
+                                <div class="register__password">
+                                    <input type="password" id="password" placeholder="Enter password">
+                                    <a href="#" class="register__password-control">Show</a>
+                                </div>
+                            </form>
+                            <label class="checkbox">
+                                <input type="checkbox">
+                                <span class="register__checkbox"></span>
+                                I agree to terms & conditions
+                            </label>
+                            <button class="register__button">
+                                Register Account
+                            </button>
+                            <div class="register__sep">
+                                <span>Or</span>
+                            </div>
+                            <button class="register__google">
+                                <img src="img/google.png" alt="google">
+                                Register with Google
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>
