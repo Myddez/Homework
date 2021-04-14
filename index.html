@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -121,7 +123,64 @@
             <img src="img/mobile.png" alt="mobile">
         </div>
 
-        <img src="img\slider.png" alt="slider" class="slider">
+        <div class="slider">
+            <img class="slider__points_1" src="img/points.png">
+            <img class="slider__points_2" src="img/points_grey.png">
+            <div class="slider__block">
+                <div class="slider__item">
+                    <p class="slider__title">What our customer are saying</p>
+                    <div class="slider__text">
+                        <div class="slider__person">
+                            <img src="img/slider.jpg" alt="photo">
+                            <div class="slider__info">
+                                <p class="slider__name">Edward Newgate</p>
+                                <p class="slider__position">Founder Circle</p>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga assumenda ab voluptatum corrupti, quidem deserunt aspernatur sed. Eum, quam modi deserunt labore amet officiis provident aut ipsum in dicta quasi, at debitis earum quae inventore ab, error soluta ratione harum quia expedita nulla! Temporibus nisi vel sint provident recusandae praesentium illum rem, voluptatum at, libero ipsam iusto non atque quibusdam?</p>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <p class="slider__title">What our customer are saying</p>
+                    <div class="slider__text">
+                        <div class="slider__person">
+                            <img src="img/slider.jpg" alt="photo">
+                            <div class="slider__info">
+                                <p class="slider__name">Edward Newgate</p>
+                                <p class="slider__position">Founder Circle</p>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi necessitatibus, repudiandae ducimus ratione doloribus corrupti provident ullam accusantium reiciendis recusandae.</p>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <p class="slider__title">What our customer are saying</p>
+                    <div class="slider__text">
+                        <div class="slider__person">
+                            <img src="img/slider.jpg" alt="photo">
+                            <div class="slider__info">
+                                <p class="slider__name">Edward Newgate</p>
+                                <p class="slider__position">Founder Circle</p>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum fuga ipsum molestias doloremque deserunt et commodi numquam officia, magnam tempore! Vitae delectus in exercitationem placeat beatae veniam laboriosam quasi? Nam!</p>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <p class="slider__title">What our customer are saying</p>
+                    <div class="slider__text">
+                        <div class="slider__person">
+                            <img src="img/slider.jpg" alt="photo">
+                            <div class="slider__info">
+                                <p class="slider__name">Edward Newgate</p>
+                                <p class="slider__position">Founder Circle</p>
+                            </div>
+                        </div>
+                        <p>“Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <div class="latest">
             <p class="latest__title">Check out our latest article</p>
@@ -210,6 +269,27 @@
         </div>
     </footer>
     
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+  
+    <script>
+        $('.slider__block').slick({
+            dots: true,
+            infinite: false,
+            responsive: [
+            {
+            breakpoint: 600,
+            settings: {
+                infinite: true,
+                dots: false,
+                arrows: false,
+            }
+            }
+        ]
+        });
+    </script>
+
 </div>
 </body>
 
